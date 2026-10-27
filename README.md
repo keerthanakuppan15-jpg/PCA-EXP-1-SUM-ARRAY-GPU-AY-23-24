@@ -301,4 +301,4 @@ int main(int argc, char **argv)
 
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, the comparison of all four outputs for array summation on the host (CPU) and device (GPU) using random numbers in CUDA C/C++ with the NVCC compiler shows that GPU execution is faster than CPU execution in all four configurations. Output 1 achieved a GPU execution time of 0.001504 seconds with a speedup of 35.02×, Output 2 achieved 0.001004 seconds with a speedup of 70.73×, Output 3 achieved 0.000957 seconds with a speedup of 54.17×, and Output 4 achieved the fastest execution time of 0.000935 seconds with a speedup of 49.89×. All four outputs produced matching results, confirming the correctness of the implementation. Therefore, the GPU provides significantly faster array summation than the CPU, with performance varying according to the CUDA grid and block configurations.
